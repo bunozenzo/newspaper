@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 
 class CategoryController extends Controller
 {
@@ -12,7 +13,8 @@ class CategoryController extends Controller
 
     }
     public function getlist(){
-     return view('admin.category.list');
+        $categories = Category::all();
+        return view('admin.category.list', compact('categories'));
     }
 
 }

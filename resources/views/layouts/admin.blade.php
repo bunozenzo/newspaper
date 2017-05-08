@@ -10,11 +10,13 @@
     <link rel="stylesheet" href="{{ asset('public/font-awesome/css/font-awesome.min.css') }}">
     <!-- Ionicons -->
     <link rel="stylesheet" href="{{ asset('public/bootstrap/css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/admin.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/css/admin.css') }}">
     <script src="{{ asset('public/js/jquery-3.2.1.min.js') }}"></script>
     <script src="{{ asset('public/bootstrap/js/bootstrap.min.js') }}" type="text/javascript"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="{{ asset('public/admin/dist/css/AdminLTE.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('public/admin/dist/AdminLTE.css') }}">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="{{ asset('public/admin/dist/css/skins/_all-skins.min.css') }}">
